@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "dev": "deno run --watch -A main.ts",
+    "deploy": "deployctl deploy --project=oism-websocket main.ts --prod"
+  }
+}
